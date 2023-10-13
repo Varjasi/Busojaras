@@ -5,6 +5,7 @@ body {
 	max-width: 1000px;
 	text-align: justify;
 	color: #522F00;
+	background-color:  #FFF5E8;
 }
 
 p:first-letter {
@@ -22,6 +23,9 @@ h1{
 	color: #B16400;
 }
 
+h2 {
+	color: #B16400;
+}
 img {
 	border: 2px solid #FFEBD0;
 	border-radius: 5px;
@@ -33,8 +37,13 @@ img {
 
 .balra {
 	float: left;
+	width: 300px;
+	height: auto;
 }
-
+.jobbra {
+	width: 300px;
+	height: auto;
+}
 
 q {
 	font-style: italic;
@@ -68,4 +77,8 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+.felsorolás {
+	list-style-image: url(jel.png);
 }
